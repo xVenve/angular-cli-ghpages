@@ -1,5 +1,5 @@
 export const defaults = {
-  dir: 'dist',
+  dir: 'dist', // only default for the standalone version
   repo: undefined,
   message: 'Auto-generated commit',
   branch: 'gh-pages',

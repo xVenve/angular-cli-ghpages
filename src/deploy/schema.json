@@ -57,6 +57,11 @@
       "type": "boolean",
       "description": "For testing: Run through without making any changes. Execute with --dry-run and nothing will happen.",
       "default": false
+    },
+    "dir": {
+      "type": "string",
+      "description": "Directory for all published sources, relative to the project-root.",
+      "default": false
     }
   }
 }
